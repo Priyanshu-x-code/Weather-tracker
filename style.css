@@ -41,6 +41,31 @@ body{
 .brand-name{
     font-family:jetbrains mono;
     font-weight: 600;
-    font-size: 28px;
+    font-size: 32px;
     letter-spacing: -0.01em;
 }
+.search-city{
+    display:flex;
+    gap:8px;
+
+}
+.city{
+    background-color: rgba(245,243, 238, 0.07);
+    border:1px solid rgba(245,243, 238, 0.07);
+    border-radius:8px;
+    color: white;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    outline: none;
+    width:170px;
+    padding: 10px 14px;
+    transition: border-color 0.2s ease, background 0.2s ease ;
+
+}
+ .city::placeholder{
+    color:#8b97a8;
+}
+.city:focus{
+    border-color: #e8a33d;
+    background: rgba(245, 243, 238, 0.1);
+} 
