@@ -28,7 +28,7 @@ body{
  
   gap:16px;
   margin-bottom: 24px;
-  flex-wrap: wrap;
+  
 }
 .brand-eyebrow{
     display: block;
@@ -39,6 +39,7 @@ body{
 
 }
 .brand-name{
+    font-family:jetbrains mono;
     font-weight: 600;
     font-size: 28px;
     letter-spacing: -0.01em;
