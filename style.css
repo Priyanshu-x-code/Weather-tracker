@@ -88,7 +88,7 @@ body{
     border-color:#e8a33d ;
 }
 .readout{
-    height:350px;
+    height:360px;
     background-color: rgba(245,243, 238, 0.07);
     border:1px solid rgba(245,243, 238, 0.07);
     border-radius:16px;
@@ -189,4 +189,5 @@ body{
     font-family: 'Courier New', Courier, monospace;
     font-size:11px;
 }
+
 
