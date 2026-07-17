@@ -115,3 +115,38 @@ body{
     font-size:11px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.readout-temp-block{
+    margin-bottom:8px;
+    gap:10px;
+    display:flex;
+    align-items: flex-start;
+}
+.readout-temp{
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: -0.02em;
+}
+.readout-unit{
+    display:flex;
+    align-items:center;
+    gap:4px;
+    margin-top: 14px;
+    font-size: 13px;
+}
+.unit{
+  background: none;
+  border:none;
+  color:#8b97a8;
+  font-family: Arial, Helvetica, sans-serif ;
+  font-size:13px;
+  padding: 2px;
+  cursor: pointer;
+}
+.unit:active{
+    color:#e8a33d;
+    font-weight: 400;
+}
+.unit-divide{
+    color:#8b97a8;
+}
