@@ -86,8 +86,8 @@ async function geocodeCity(cityInput) {
 
     const data = await res.json();
     if (!data.results || data.results.length ===0) {
-         alert (`couldn't find ${cityInput} . Try another city `);
-         throw new Error(`couldn't find ${cityInput} . Try another city `);
+         alert (`couldn't find - ${cityInput} . Try another city `);
+         throw new Error(`couldn't find - ${cityInput} . Try another city `);
     }
     const place = data.results[0];
     return {
