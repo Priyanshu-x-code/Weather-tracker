@@ -95,6 +95,9 @@ body{
     padding:28px;
 
 }
+.readout.hidden{
+    display:none;
+}
 .readout-primary{
     padding-bottom: 20px;
     margin-bottom: 20px;
